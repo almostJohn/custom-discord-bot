@@ -1,0 +1,20 @@
+{
+	"name": "role-bot",
+	"version": "1.0.0",
+	"description": "Custom discord bot for giving role",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"keywords": [],
+	"author": "almostJohn <garcia.johngale@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"discord.js": "^14.5.0",
+		"dotenv": "^16.0.3"
+	},
+	"engines": {
+		"node": ">=16.0.0",
+		"npm": ">=7.0.0"
+	}
+}
