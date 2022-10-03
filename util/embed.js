@@ -19,19 +19,7 @@ const {
 	GREEN_EMOJI_ID,
 	YELLOW_EMOJI_ID,
 } = require("../constants");
-
-/** @param {Snowflake} id */
-function roleFormatter(id) {
-	return `<@&${id}>`;
-}
-
-/**
- * @param {string} name
- * @param {Snowflake} id
- */
-function emojiFormatter(name, id) {
-	return `<:${name}:${id}>`;
-}
+const { roleFormatter, emojiFormatter } = require("./formatter");
 
 function createEmbed() {
 	let msg = [

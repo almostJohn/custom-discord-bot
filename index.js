@@ -9,8 +9,18 @@ const { interactionHandler } = require("./util/interaction");
 
 const client = createClient({ intents: [GatewayIntentBits.Guilds] });
 
-client.on("ready", () => readyHandler(client));
+function main() {
+	try {
+		client.on("ready", () => readyHandler(client));
 
-client.on("interactionCreate", async (interaction) => await interactionHandler(interaction));
+		client.on("interactionCreate", async (interaction) => {
+			await interactionHandler(interaction);
+		});
 
-client.login(process.env.DISCORD_BOT_TOKEN);
+		client.login(process.env.DISCORD_BOT_TOKEN);
+	} catch (error) {
+		console.error(error);
+	}
+}
+
+main();

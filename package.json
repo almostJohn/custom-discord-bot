@@ -1,10 +1,10 @@
 {
-	"name": "role-bot",
+	"name": "color-chan",
 	"version": "1.0.0",
 	"description": "Custom discord bot for giving role",
 	"main": "index.js",
 	"scripts": {
-		"start": "node index.js"
+		"start": "node index.html"
 	},
 	"keywords": [],
 	"author": "almostJohn <garcia.johngale@gmail.com>",

@@ -2,11 +2,13 @@
 
 body {
 	background-color: #5865f2;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: "Courier New", Courier, monospace;
 }
 
-.container {
+h1 {
+	font-weight: bold;
 	font-size: large;
 	text-align: center;
 	color: #fff;
+	justify-content: center;
 }
