@@ -4,7 +4,7 @@
 	"description": "Custom discord bot for giving role",
 	"main": "index.js",
 	"scripts": {
-		"start": "node index.html"
+		"start": "node index.js"
 	},
 	"keywords": [],
 	"author": "almostJohn <garcia.johngale@gmail.com>",

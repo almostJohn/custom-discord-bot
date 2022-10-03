@@ -1,6 +1,6 @@
 /** @format */
 
-const { APIEmbed, Snowflake, ActionRowBuilder, ButtonBuilder, ButtonStyle, Message } = require("discord.js");
+const { APIEmbed, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require("discord.js");
 const {
 	COLOR,
 	ROLE,
