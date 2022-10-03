@@ -1,0 +1,12 @@
+/** @format */
+
+body {
+	background-color: #5865f2;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+	font-size: large;
+	text-align: center;
+	color: #fff;
+}
